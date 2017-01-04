@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="Content/bxSlider/css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="Content/CSS/Main.css" rel="stylesheet" />
+</head>
+<body>
+
+
+    <ul class="bxslider">
+        <li>
+            <img src="Content/Gallery/img1.jpg" />
+        </li>
+        <li>
+            <img src="Content/Gallery/img2.jpg" />
+        </li>
+        <li>
+            <img src="Content/Gallery/img3.jpg" />
+        </li>
+        <li>
+            <img src="Content/Gallery/img4.jpg" />
+        </li>
+        <li>
+            <img src="Content/Gallery/img5.jpg" />
+        </li>
+    </ul>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="Content/bxSlider/js/jquery.bxslider.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".bxslider").bxSlider({
+                pager: false,
+                auto: true
+            });
+        })
+    </script>
+
+</body>
+</html>
