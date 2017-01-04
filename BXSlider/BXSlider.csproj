@@ -76,8 +76,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bxSlider\css\jquery.bxslider.css" />
-    <Content Include="Content\bxSlider\images\bx_loader.gif" />
-    <Content Include="Content\bxSlider\images\controls.png" />
+    <Content Include="Content\bxSlider\css\images\bx_loader.gif" />
+    <Content Include="Content\bxSlider\css\images\controls.png" />
     <Content Include="Content\bxSlider\js\jquery.bxslider.js" />
     <Content Include="Content\CSS\Main.css" />
     <Content Include="Content\Gallery\img1.jpg" />
